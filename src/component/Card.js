@@ -16,7 +16,7 @@ const Card = ({ cardData, onEdit }) => {
   };
 
   return (
-    <div style={{ border: '1px solid #ccc', padding: '10px', margin: '10px' }}>
+    <div style={{ border: '1px solid #ccc', padding: '10px', margin: '10px', flex: '0 0 30%' }}>
       {isEditing ? (
         <>
           <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
