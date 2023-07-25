@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+/* Grid container for cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three cards per row */
+  gap: 20px; /* Space between cards */
+  margin: 20px;
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Card content styling */
+.card p {
+  margin: 5px 0;
+}
+
+/* Edit button styling */
+.card button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+/* Save button styling */
+.card button.save {
+  background-color: #28a745;
+}
+
+/* Input field styling */
+.card input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
