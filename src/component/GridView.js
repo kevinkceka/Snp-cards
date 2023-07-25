@@ -24,7 +24,7 @@ const GridView = () => {
   return (
     <div>
       <button onClick={handleAddCard}>Add Card</button>
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+      <div className="card-grid">
         {cards.map((card) => (
           <Card key={card.id} cardData={card} onEdit={handleEditCard} />
         ))}
