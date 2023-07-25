@@ -49,6 +49,7 @@
 .card {
   border: 1px solid #ccc;
   padding: 10px;
+  background-image: linear-gradient(to right, rgb(146, 160, 158) , rgb(22, 200, 200));
 }
 
 /* Card content styling */
